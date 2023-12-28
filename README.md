@@ -64,7 +64,7 @@ components using our `meta-imx` layer.
 Examples:
 - Setup for XWayland.
 ```
-$: MACHINE=imx8mnevk DISTRO=fsl-imx-xwayland source ./imx-setup-release.sh -b bld-xwayland
+$: MACHINE=imx6ull-myir-dk DISTRO=myir-imx-fb source ./sources/meta-myir-imx6ull/tools/imx-setup-release.sh -b build-myir-fb
 ```
 
 Build an image:
