@@ -28,7 +28,7 @@ Download the Yocto Project BSP
 ```
 $: mkdir <release>
 $: cd <release>
-$: repo init -u https://github.com/nxp-imx/imx-manifest -b <branch name> [ -m <release manifest>]
+$: repo init -u https://github.com/windowxia/imx6ull-myir-manifest -b <branch name> [ -m <release manifest>]
 $: repo sync
 ```
 
@@ -39,7 +39,7 @@ Examples
 
 To download the 6.1.55-2.2.0 release
 ```
-$: repo init -u https://github.com/nxp-imx/imx-manifest -b imx-linux-mickledore -m imx-6.1.55-2.2.0.xml
+$: repo init -u https://github.com/windowxia/imx6ull-myir-manifest -b main -m imx6ull-myir-manifest.xml
 ```
 To download the 6.1.36-2.1.0 release
 ```
